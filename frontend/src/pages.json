@@ -1,0 +1,116 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			// uni-ui 规则如下配置
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		}
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "Ai语音转文字"
+			}
+		},
+		{
+			"path": "pages/gift/index",
+			"style": {
+				"navigationBarTitleText": "Ai语音转文字"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "Ai语音转文字"
+			}
+		},
+// test
+		{
+			"path": "pages/about/index",
+			"style": {
+				"navigationBarTitleText": "Ai语音转文字"
+			}
+		},
+		{
+			"path": "pages/computer/index",
+			"style": {
+				"navigationBarTitleText": "Ai语音转文字"
+			}
+		},
+		{
+			"path": "pages/contact/index",
+			"style": {
+				"navigationBarTitleText": "Ai语音转文字"
+			}
+		},
+		{
+			"path": "pages/convert/index",
+			"style": {
+				"navigationBarTitleText": "Ai语音转文字"
+			}
+		},
+		{
+			"path": "pages/forbbiden/index",
+			"style": {
+				"navigationBarTitleText": "Ai语音转文字"
+			}
+		},
+		{
+			"path": "pages/history/index",
+			"style": {
+				"navigationBarTitleText": "Ai语音转文字"
+			}
+		},
+		{
+			"path": "pages/member/index",
+			"style": {
+				"navigationBarTitleText": "Ai语音转文字"
+			}
+		},
+		{
+			"path": "pages/promotion/index",
+			"style": {
+				"navigationBarTitleText": "Ai语音转文字"
+			}
+		},
+		{
+			"path": "pages/watermark/index",
+			"style": {
+				"navigationBarTitleText": "Ai语音转文字"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "black",
+		"selectedColor": "black",
+		"backgroundColor": "",
+		"height": "50px",
+		"list": [
+			{
+				"pagePath": "pages/home/index",
+				"text": "首页",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home.png"
+			},
+			{
+				"pagePath": "pages/gift/index",
+				"text": "福利",
+				"iconPath": "static/tabbar/gift.png",
+				"selectedIconPath": "static/tabbar/gift.png"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"text": "我的",
+				"iconPath": "static/tabbar/user.png",
+				"selectedIconPath": "static/tabbar/user.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
